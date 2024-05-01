@@ -1,0 +1,7 @@
+.calculadora {
+    height: 320px; /*Altura*/
+    width: 235px;   /*Largura*/
+    border-radius: 5px; /*borda arredondada*/
+    overflow: hidden; /*Tudo que estiver alem da calcularoa vai ser escondido*/
+    background-color: blueviolet;
+}
