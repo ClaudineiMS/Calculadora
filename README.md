@@ -15,7 +15,7 @@ Abra (http://localhost:3000)
 
 ### Calculadora
 
-(images/calc.png)
+![Calculadora](./imagens/calc.png)
 
 
 ### Analyzing the Bundle Size
