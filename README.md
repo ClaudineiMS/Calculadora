@@ -13,7 +13,7 @@ No diretório do projeto, você pode executar:
 Executa o aplicativo no modo de desenvolvimento.\
 Abra (http://localhost:3000)
 
-### Code Splitting
+### Calculadora
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
