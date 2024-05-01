@@ -6,7 +6,7 @@ export const Button = (props) => {
     <button className={`button
       ${props.operation ? 'operation' : ''}
       ${props.double ? 'double' : ''}
-      ${props.triple ? 'triple' : ''}`} 
+      ${props.triple ? 'triple' : ''}`}  // Adiciona classes dinamicamente com base nas propriedades do botão
       onClick={e => props.click && props.click(props.label)}>
       {props.label}
     </button>
