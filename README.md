@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Primeiros passos 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Após clonar o projeto execute: npm install . 
+Para instalar as dependências do projeto Node.js a partir do diretório atual. 
+O npm procura pelo arquivo package.json no diretório atual e instala as dependências listadas neste arquivo.
 
 ## Available Scripts
 
