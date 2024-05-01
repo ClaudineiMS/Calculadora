@@ -3,5 +3,7 @@
     width: 235px;   /*Largura*/
     border-radius: 5px; /*borda arredondada*/
     overflow: hidden; /*Tudo que estiver alem da calcularoa vai ser escondido*/
-    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(4,25%); /*divide em 4 colunas e cada coluna ocupa 25% de espaço"*/
+    grid-template-rows: 48px 48px 48px 48px 48px;
 }
