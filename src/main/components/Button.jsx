@@ -3,7 +3,13 @@ import '../css/button.css';
 
 export const Button = (props) => {
   return (
-    <button className='button' onClick={()=>console.log(props.label)}>{props.label}</button>
+    <button className={`button
+      ${props.operation ? 'operation' : ''}
+      ${props.double ? 'double' : ''}
+      ${props.triple ? 'triple' : ''}`} 
+      onClick={e => props.click && props.click(props.label)}>
+      {props.label}
+    </button>
   );
 };
 

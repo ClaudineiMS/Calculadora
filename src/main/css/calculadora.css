@@ -5,5 +5,5 @@
     overflow: hidden; /*Tudo que estiver alem da calcularoa vai ser escondido*/
     display: grid;
     grid-template-columns: repeat(4,25%); /*divide em 4 colunas e cada coluna ocupa 25% de espaço"*/
-    grid-template-rows: 48px 48px 48px 48px 48px;
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;
 }
